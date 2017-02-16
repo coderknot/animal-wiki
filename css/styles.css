@@ -1,34 +1,12 @@
-/*#bears, #birds, #bees {
+#bears, #birds, #bees {
   display: none;
-}*/
+}
 
-img {
+#bears img, #birds img, #bees img {
   width: 100%;
   height: auto;
 }
 
-p {
+#bears p {
   margin-top: 10px;
-}
-
-.highlight {
-  background-color: green;
-}
-
-/*.thrill-score {
-  display: none;
-}*/
-
-
-
-
-.rotate {
-  -webkit-animation: rotateY 5s infinite linear;
-  animation: rotateY 5s infinite linear;
-}
-@-webkit-keyframes rotateY {
-  to { -webkit-transform: rotateY(360deg); }
-}
-@keyframes rotateY {
-  to { transform: rotateY(360deg); }
 }
